@@ -1,0 +1,98 @@
+* {
+    font-family:
+'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+Verdana, sans-serif;
+margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight:normal;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+h1{
+    text-align: center;
+    font-size: 4rem; /* 1 rem es igual a 16 px si no lo modificamos y va ir au,entando de 16 en 16 */
+    padding-top: 50px;
+    padding-right: 10px;
+}
+
+.texto-custom {
+     color: red;
+     background-color: blue;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-style: italic;
+}
+/* .texto-custom{
+    color: chartreuse;
+} */
+/* Vamos a crear comentarios en css de esta manera */
+
+.texto-custom-dos {
+    color: greenyellow;
+    background-color: brown;
+    font-style: oblique ;
+}
+h1{
+    border-color:#8f2ba2
+}
+.espacioabajocustom{
+    padding: 0 0 20px 1rem;
+    margin: 50px 30px 60px 40px
+}
+span{
+     margin-bottom: 400px;
+}
+#identificador-parrafo{
+    margin-top: 70px;
+  }
+  .list-item{
+    margin-left: 50px;
+  }             
+
+  ul .list-item{
+    background-color: wheat;
+    border: 2px solid black
+  }
+  ul .list-item a{
+    text-decoration: none;
+    color:chocolate;  
+  }
+  
+  ul .list-item a:hover{
+    color:#8f2ba2;
+  }
+  ul .list-item .hipervinculo-especial{
+    color:rgb(82, 118, 184);
+  }
+
+
+  ul .list-item .hipervinculo-especial-dos{
+    font-size: xx-large;
+  }
+
+  .caja-ejemplo {
+    border: 3px solid orangered;
+    width: 400px;
+    background-color: #8f2ba2;
+}
+.navegador{
+    padding: 20px;
+  background-color: antiquewhite;
+}
+.nav-item{
+    display: inline-block;
+    list-style: none;
+  margin-right: 10px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: #444040;
+}
+
+.nav-item a:hover{
+  color: #8f2ba2;
+}
