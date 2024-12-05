@@ -19,6 +19,7 @@
   text-align: center;
   margin-left: 100px;
   width: 360px;
+  
 }
 .contenedor-interno{
   display: inline-block;
@@ -44,3 +45,36 @@
 .contenedor-interno2{
   display: inline-block;
 }
+#tarjeta-tres {
+  background-color: #1E3932;
+  display: flex; /* Configura el contenedor principal como Flexbox */
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+
+#tarjeta-tres .contenedor-tres {
+  display: flex;
+  align-items: center; /* Alinea verticalmente */
+}
+
+#tarjeta-tres .contenedor-imagen3 {
+  display: flex; /* Alineación interna si es necesario */
+}
+
+#tarjeta-tres .contenedor-imagen3 .imagen-starbucks3 {
+  width: 80%;
+  vertical-align:middle;
+}
+
+.contenedor-texto3 {
+  color: white;
+  text-align: center;
+  
+
+}
+
+.contenedor-interno3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra internamente el contenido */
+}
+
