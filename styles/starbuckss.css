@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  body{
+    font-family: "Roboto", serif;
+  }
+  .header{
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .1);
+    padding: 20px;
+  }
+  .topnavbar{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  
+  .topnavbar .nav{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+  }
+  .topnavbar .nav .nav-item .item-image{
+    max-width: 50px;
+  }
+  .topnavbar .nav .nav-item a{
+    text-decoration: none;
+    font-weight: 900;
+    color: black;
+  }
+  .topnavbar .nav .nav-item a:hover{
+    color: green;
+  }
+  
+
+  #tarjeta-uno{
+    background-color: #1E3932;
+  }
+  
+  #tarjeta-uno .contenedor-imagen{
+    width: 50%;
+    vertical-align:middle;
+  }
+  
+  #tarjeta-uno .contenedor-imagen .imagen-starbucks{
+    max-width: 100%;
+  }
+  .contenedor-texto{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    width: 360px;
+    
+  }
+  .contenedor-interno{
+    display: inline-block;
+  }
+  
+  #tarjeta-dos{
+    background-color: #890127;
+  }
+  #tarjeta-dos .contenedor-imagen2{
+    width: 50%;
+    vertical-align:middle;
+  }
+  #tarjeta-dos .contenedor-imagen2 .imagen-starbucks2{
+    max-width: 100%;
+  }
+  .contenedor-texto2{
+    margin-left: 100px;
+    color: white;
+    text-align: center;
+    width: 360px;
+  }
+  
+  .contenedor-interno2{
+    display: inline-block;
+  }
+  #tarjeta-tres {
+    background-color: #0044B3;
+    display: flex;
+    align-items: center; 
+  }
+  
+  #tarjeta-tres .contenedor-tres {
+    display: flex;
+    align-items: center; 
+  }
+  
+  #tarjeta-tres .contenedor-imagen3 {
+    display: flex; 
+  }
+  
+  #tarjeta-tres .contenedor-imagen3 .imagen-starbucks3 {
+    width: 80%;
+    vertical-align:middle;
+  }
+  
+  .contenedor-texto3 {
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .contenedor-interno3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  #tarjeta-cuatro {
+    background-color: #1E3932;
+    display: flex; 
+    align-items: center; 
+  }
+  
+  #tarjeta-cuatro .contenedor-cuatro {
+    display: flex;
+    align-items: center; 
+  }
+  
+  #tarjeta-cuatro .contenedor-imagen4 {
+    display: flex; 
+  }
+  
+  #tarjeta-cuatro .contenedor-imagen4 .imagen-starbucks4 {
+    width: 80%;
+    vertical-align:middle;
+  }
+  
+  .contenedor-texto4 {
+    color: white;
+    text-align: center;
+  
+  }
+  
+  .contenedor-interno4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  }
+  
+  #tarjeta-cinco{
+    background-color: #D50032;
+  }
+  
+  #tarjeta-cinco .contenedor-imagen5{
+    width: 50%;
+    vertical-align:middle;
+  }
+  
+  #tarjeta-cinco .contenedor-imagen5 .imagen-starbucks5{
+    max-width: 100%;
+  }
+  .contenedor-texto5{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    width: 360px;
+    
+  }
+  .contenedor-interno5{
+    display: inline-block;
+  }
+  .cookie-banner{
+    background-color: white;
+    padding: 30px ;
+    border-top: 1px solid;
+    position:sticky;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+  }
+  
+  .banner-text-container{
+   flex-grow: 1;
+  }
+  
+  .cookie-banner .banner-text-bold{
+    font-weight: bold;
+  }
+  
+  .cookie-banner .banner-button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cookie-banner .banner-button-container .banner-button {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    padding: 10px 5px;
+    border-radius: 25px;
+    width: 100px;
+    cursor: pointer;
+  }
+  .invisible{
+    display: none;
+  }

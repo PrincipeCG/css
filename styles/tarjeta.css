@@ -46,7 +46,7 @@
   display: inline-block;
 }
 #tarjeta-tres {
-  background-color: #1E3932;
+  background-color: #0044B3;
   display: flex; /* Configura el contenedor principal como Flexbox */
   align-items: center; /* Alinea verticalmente los elementos */
 }
@@ -68,7 +68,6 @@
 .contenedor-texto3 {
   color: white;
   text-align: center;
-  
 
 }
 
@@ -78,3 +77,57 @@
   align-items: center; /* Centra internamente el contenido */
 }
 
+#tarjeta-cuatro {
+  background-color: #1E3932;
+  display: flex; /* Configura el contenedor principal como Flexbox */
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+
+#tarjeta-cuatro .contenedor-cuatro {
+  display: flex;
+  align-items: center; /* Alinea verticalmente */
+}
+
+#tarjeta-cuatro .contenedor-imagen4 {
+  display: flex; /* Alineación interna si es necesario */
+}
+
+#tarjeta-cuatro .contenedor-imagen4 .imagen-starbucks4 {
+  width: 80%;
+  vertical-align:middle;
+}
+
+.contenedor-texto4 {
+  color: white;
+  text-align: center;
+
+}
+
+.contenedor-interno4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra internamente el contenido */
+}
+
+#tarjeta-cinco{
+  background-color: #D50032;
+}
+
+#tarjeta-cinco .contenedor-imagen5{
+  width: 50%;
+  vertical-align:middle;
+}
+
+#tarjeta-cinco .contenedor-imagen5 .imagen-starbucks5{
+  max-width: 100%;
+}
+.contenedor-texto5{
+  color: white;
+  text-align: center;
+  margin-left: 100px;
+  width: 360px;
+  
+}
+.contenedor-interno5{
+  display: inline-block;
+}
